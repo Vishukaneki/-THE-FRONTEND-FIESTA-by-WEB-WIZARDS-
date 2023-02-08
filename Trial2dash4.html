@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Medical Health Facilities</title>
+    <style>
+        .B1{
+            padding-left: 20px;
+            font-size: large;
+            font-weight: bold;
+            font-family: arial;
+            height:40px;
+            background-color: #333;
+            color:white;
+            border-radius: 40px;
+            margin-right: 10px;
+            margin-bottom :10px;
+            width: 97%;
+            display:flex;
+            justify-content: space-between;
+            text-align: center;
+        
+        }
+      /* Add styles for the website */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      section {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      /* Add styles for the navigation menu */
+      nav {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      /* Add styles for the footer */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      .h2{
+        text-align:left;
+      }
+      .form-control{
+        color: grey;
+        font-size: 15px;
+        font-weight: bold;
+        width: 455px;
+        height: 25px;
+        padding-left: 50px;
+        border-radius: 10px;
+      }
+      .B2{
+        height: 40px;
+        width: 155px;
+        font-size:20px;
+        border-radius: 20px;
+        background-color:black;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <input class="B1" type="text" placeholder="Ask for help &#128269">
+    <header>
+      <h1>Medical Health Facilities</h1>
+    </header>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <section id="services">
+      <h2>Services</h2>
+      <p>We provide a wide range of medical services, including:</p>
+      <ul>
+        <li>General practice</li>
+        <li>Surgery</li>
+        <li>Pediatrics</li>
+        <li>Obstetrics and gynecology</li>
+      </ul>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>Our facility is equipped with state-of-the-art technology and staffed by a team of highly trained medical professionals. We are committed to providing quality, patient-centered care to our community.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Phone: 123-456-7890</p>
+      <p>Email: info@medicalhealthfacilities.com</p>
+    </section>
+    <footer>
+      Maximize your life expectancy
+    </footer>
+    <section class="section-padding" id="booking">
+        <div class="container">
+            <div class="row">
+            
+                <div class="c1">
+                    <div class="booking-form">
+                        
+                        <h2 class="h2">Book an appointment</h2>
+                    
+                        <form role="form" action="#booking" method="post">
+                            <div class="row">
+                                <div class="d1">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
+                                </div>
+
+                                <div class="d2">
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+                                </div>
+
+                                <div class="d3">
+                                    <input type="telephone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="Phone: 123-456-7890">
+                                </div>
+
+                                <div class="d4">
+                                    <input type="date" name="date" id="date" value="" class="form-control">
+                                    
+                                </div>
+
+                                <div class="d5">
+                                    <textarea class="form-control" rows="5" id="message" name="message" placeholder="Additional Message"></textarea>
+                                </div>
+
+                                <div class="d6">
+                                    <button type="submit" class="B2" id="submit-button">Book Now</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  </body>
+</html>
